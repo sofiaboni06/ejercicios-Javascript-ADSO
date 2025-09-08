@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Actividades JS - Módulos</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+ 
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  
+  <div id="sidebar" class="sidebar">
+    <h4 class="text-white text-center mt-3">Ejercicios</h4>
+    <ul class="list-unstyled mt-4 ps-3">
+      <li class="mb-2"><a href="#" data-ejercicio="1">Ejercicio 1: enRango</a></li>
+      <li class="mb-2"><a href="#" data-ejercicio="2">Ejercicio 2: calcularDescuento</a></li>
+      <li class="mb-2"><a href="#" data-ejercicio="3">Ejercicio 3: categoriaIMC</a></li>
+      <li class="mb-2"><a href="#" data-ejercicio="4">Ejercicio 4: nivelRiesgo</a></li>
+      <li class="mb-2"><a href="#" data-ejercicio="5">Ejercicio 5: esBisiesto</a></li>
+      <li class="mb-2"><a href="#" data-ejercicio="6">Ejercicio 6: esElegibleParaPrestamo</a></li>
+      <li class="mb-2"><a href="#" data-ejercicio="7">Ejercicio 7: libros.json</a></li>
+      <li class="mb-2"><a href="#" data-ejercicio="8">Ejercicio 8: Alcancía</a></li>
+      <li class="mb-2"><a href="#" data-ejercicio="9">Ejercicio 9: Contactos</a></li>
+    </ul>
+  </div>
+
+  
+  <div id="hamburger" class="hamburger" title="Abrir/Cerrar menú">&#9776;</div>
+
+  
+  <div id="contenido" class="contenido animate__animated animate__fadeIn">
+    <div class="container py-5">
+      <div class="card p-4 shadow-lg">
+        <h2 class="text-center mb-2">Bienvenido 👋</h2>
+        <p class="text-center mb-0">Selecciona un ejercicio desde el menú lateral.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
